@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeons & Dragons</title>
+    <!-- ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rpg-awesome/0.2.0/css/rpg-awesome.min.css" integrity="sha512-01mG/8rtthZxcE/oLY/1aVBq0UHYxd3r9MgSi33zFQ190gj+BfHY8XeoFiErGyVt1pE68U6InjMq+xkVTSf6yg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="img/d&d.png" alt="D&D Logo" class="logo">
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#">Comunidade</a>
+                    </li>
+                    <li>
+                        <a href="#" class="default-btn">Entrar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="main-banner">
+                <h1>Dungeons&Dragons</h1>
+                <p>O Clássico jogo de RPG agora online!</p>
+            </div>
+            <section class="services-container">
+                <ul>
+                    <li>
+                        <i class="ra ra-relic-blade"></i>
+                        <h3>Escolha sua classe</h3>
+                        <p>Jogue de guerreiro, druida, paladino, bardo ou várias outras classes</p>
+                    </li>
+                    <li>
+                        <i class="ra ra-book"></i>
+                        <h3>Seja o mestre</h3>
+                        <p>Crie sua própria aventura épica para seus amigos jogarem</p>
+                    </li>
+                    <li>
+                        <i class="ra ra-double-team"></i>
+                        <h3>Jogue online</h3>
+                        <p>Junte sua guilda online para se aventurarem no mundo de D&D</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="pricing-container">
+                <h2>Planos e Preços</h2>
+                <p>Selecione um plano de assinatura</p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$19,90/mês</li>
+                            <li class="plan-name">Aventureiro Iniciante</li>
+                            <li>Acesso completo ao jogo básico</li>
+                            <li>10 slots de inventário</li>
+                            <li>Suporte ao cliente padrão</li>
+                            <li>1 item exclusivo inicial</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$39,90/mês</li>
+                            <li class="plan-name">Herói Experiente</li>
+                            <li>Acesso completo ao jogo básico</li>
+                            <li>30 slots de inventário</li>
+                            <li>100 moedas virtuais por mês</li>
+                            <li>Suporte ao cliente prioritário</li>
+                            <li>1 item exclusivo inicial</li>
+                            <li>Acesso antecipado a novos conteúdos</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$69,90/mês</li>
+                            <li class="plan-name">Campeão Lendário</li>
+                            <li>Acesso completo ao jogo básico</li>
+                            <li>30 slots de inventário</li>
+                            <li>300 moedas virtuais por mês</li>
+                            <li>Suporte ao cliente VIP</li>
+                            <li>1 item exclusivo inicial</li>
+                            <li>Acesso antecipado a novos conteúdos</li>
+                            <li>Itens exclusivos mensais</li>
+                            <li>Acesso a eventos especiais no jogo</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$99,90/mês</li>
+                            <li class="plan-name">Mestre Supremo</li>
+                            <li>Acesso completo ao jogo básico</li>
+                            <li>Slots de inventário ilimitados</li>
+                            <li>1.000 moedas virtuais por mês</li>
+                            <li>Suporte ao cliente VIP com atendimento dedicado</li>
+                            <li>1 item lendário exclusivo inicial</li>
+                            <li>Acesso antecipado a novos conteúdos e expansões</li>
+                            <li>Itens exclusivos mensais</li>
+                            <li>Acesso a eventos especiais no jogo e a eventos da comunidade</li>
+                            <li>Personalização avançada de personagens e itens</li>
+                            <li>Convites para betas fechadas e desenvolvimento de novos conteúdos</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="searchdomain-container">
+                <h2>Busque servidores ativos</h2>
+                <p>Verifique os servidores em que os jogadores estão se aventurando</p>
+                <form>
+                    <input type="text" name="domain" id="domain" placeholder="Digite o nome de uma aventura">
+                    <input type="submit" value="Procurar servidor"/>
+                </form>
+            </section>
+            <section class="contact-container">
+                <h2>Mande uma mensagem</h2>
+                <p>Envie a sua mensagem, em até 4 horas um especialista entrará em contato</p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Seu nome">
+                    <input type="text" name="email" id="email" placeholder="Seu e-mail">
+                    <textarea name="message" id="message" placeholder="Escreva a sua dúvida ou sugestão"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Dungeons&Dragons @2022</p>
+        </footer>
+    </div>
+</body>
+</html>
